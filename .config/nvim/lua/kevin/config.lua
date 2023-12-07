@@ -41,6 +41,6 @@ vim.opt.hidden = true                      -- set hidden buffer
 vim.opt.incsearch = true                   -- set incremental search
 vim.opt.autochdir = true                   -- change directory automaticly
 vim.opt.scrolloff = 8                      -- stops the scroll when 8 lines remain
---vm.opt.sidescrolloff = 8
 vim.opt.cmdheight = 1                      -- less space in the neovim command line for displaying messages
 vim.opt.completeopt = 'menuone'
+vim.opt.shortmess = 'c'

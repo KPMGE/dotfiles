@@ -33,5 +33,8 @@ vim.keymap.set("v", "<leader>Y", "\"+Y")
 -- disable Q
 vim.keymap.set("n", "Q", "<nop>")
 
+-- set ctrl + w to trigger buffer completition
+vim.keymap.set('i', '<C-w>', '<C-x><C-n>')
+
 --lvim.keys.normal_mode[")"] = ":Gitsigns next_hunk<cr>"
 --lvim.keys.normal_mode["("] = ":Gitsigns prev_hunk<cr>"
